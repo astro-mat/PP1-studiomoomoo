@@ -52,6 +52,12 @@ h1 {
     border-bottom: 1px solid #ffffff
 }
 
+/*  Displays navbar in line  */
+
+li {
+    display: inline;
+}
+
 #menu>li {
     margin-bottom: 1em;
 }
