@@ -40,6 +40,7 @@ header a {
 
 h1 {
     font-family: 'roboto', 'Lucida Sans';
+    font-size: 30px;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -92,10 +93,17 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 76px;
+}
+
+/* Hero Section styles */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/SMM_liverm_1.JPG") no-repeat center center/cover;
 }
 
 /* footer */
@@ -103,9 +111,11 @@ footer {
     background-color: orange;
 }
 
-/* Media Query: Small */
+/*-----------------------------MEDIA QUERIES--------------------------------*/
 
-/* Media Query: Medium */
+/* Media Query: Mobile */
+
+/* Media Query: Large Mobile */
 
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -132,9 +142,7 @@ footer {
     }
 
     #logo {
-        font-size: 180%;
-        line-height: 75px;
-
+        font-size: 200%;
     }
 }
 
