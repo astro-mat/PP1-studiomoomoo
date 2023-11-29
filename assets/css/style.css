@@ -58,6 +58,10 @@ li {
     display: inline;
 }
 
+nav {
+    text-align: center;
+}
+
 #menu>li {
     margin-bottom: 1em;
 }
