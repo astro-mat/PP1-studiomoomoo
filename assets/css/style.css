@@ -130,4 +130,10 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    #logo {
+        font-size: 180%;
+        line-height: 75px;
+
+    }
 }
