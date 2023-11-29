@@ -16,13 +16,17 @@ body {
     flex-direction: column;
     /* generic project styles */
     color: white;
-    font-family: 'roboto', Lucida Console, Monaco, monospace;
+    font-family: 'roboto', Lucida Sans, monospace;
 }
 
 
 /* Header */
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    font-family: 'roboto', 'Lucida Sans';
 }
 
 /* Main content */
