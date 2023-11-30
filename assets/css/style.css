@@ -21,7 +21,7 @@ body {
 
 
 /* Logo */
-.head {
+#logo {
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -155,7 +155,7 @@ footer {
         display: none;
     }
 
-    #logo {
+    #text-logo {
         font-size: 200%;
     }
 }
