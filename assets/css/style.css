@@ -28,6 +28,10 @@ body {
     justify-content: flex-start;
 }
 
+#text-logo {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #000000;
@@ -128,6 +132,11 @@ footer {
 /*-----------------------------MEDIA QUERIES--------------------------------*/
 
 /* Media Query: Mobile */
+@media screen and (min-width: 320px) {
+    #text-logo {
+        font-size: 150%;
+    }
+}
 
 /* Media Query: Large Mobile */
 
