@@ -22,12 +22,14 @@ body {
 
 /* Logo */
 #logo {
-    height: 100px;
+    height: 46px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #text-logo {
@@ -57,7 +59,7 @@ header a {
 h1 {
     font-family: 'roboto', 'Lucida Sans';
     font-size: 30px;
-    color: #ffffff;
+    color: #252525;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -69,6 +71,7 @@ h1 {
 }
 
 #menu>li {
+    /* spaces out drop down menu items */
     margin-bottom: 1em;
 }
 
@@ -82,6 +85,7 @@ nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
+    left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #000000;
     display: none;
@@ -107,7 +111,7 @@ main {
 
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 76px;
+    margin-top: 70px;
 }
 
 /* Hero Section styles */
@@ -133,7 +137,7 @@ footer {
     #logo {}
 
     #image-logo {
-        height: 70px
+        height: 41px
     }
 
 
