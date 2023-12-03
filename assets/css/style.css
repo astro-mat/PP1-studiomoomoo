@@ -122,8 +122,28 @@ main {
 }
 
 /* footer */
-footer {
-    background-color: orange;
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #d9bf8d;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #d9bf8d;
 }
 
 /*-----------------------------MEDIA QUERIES--------------------------------*/
