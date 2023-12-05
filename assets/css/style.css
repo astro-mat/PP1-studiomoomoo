@@ -11,6 +11,7 @@
 
 /* General Styles */
 body {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,12 +20,17 @@ body {
     font-family: 'roboto', Lucida Sans, monospace;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'roboto', 'Lucida Sans';
     font-size: 30px;
     color: #252525;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family: 'roboto', 'Lucida Sans';
+    font-size: 20px;
 }
 
 /* Logo */
@@ -104,6 +110,17 @@ nav {
 
 
 /* Main content */
+hr {
+    width: 70%;
+    height: 10px;
+    background-color: #000000;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 2px;
+}
+
 main {
 
     /* Make main element take up any surplus space to push footer down */
@@ -135,6 +152,14 @@ main {
     color: #ffffff;
 }
 
+.text-container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.break-image {
+    width="100%"
+}
 
 
 
