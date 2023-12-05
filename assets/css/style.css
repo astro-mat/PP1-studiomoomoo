@@ -19,6 +19,13 @@ body {
     font-family: 'roboto', Lucida Sans, monospace;
 }
 
+h1, h2, h3 {
+    font-family: 'roboto', 'Lucida Sans';
+    font-size: 30px;
+    color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
 /* Logo */
 #logo {
@@ -52,16 +59,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-
-
-h1 {
-    font-family: 'roboto', 'Lucida Sans';
-    font-size: 30px;
-    color: #252525;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 #menu {
@@ -119,7 +116,24 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/SMM_liverm_1.JPG") no-repeat center center/cover;
+    position: relative;
 }
+
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+
 
 /* footer */
 
@@ -153,8 +167,6 @@ main {
     #text-logo {
         height: 1200px;
     }
-
-    #logo {}
 
     #image-logo {
         height: 41px
@@ -191,6 +203,18 @@ main {
     #text-logo {
         font-size: 200%;
     }
+
+    main {
+        /* push main content down to accomadate larger header */
+        margin-top: 1px, solid #3a3a3a;
+    }
+
+    /*hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+
 }
 
 /* Media Query: Large Screens laptops and desktops (992px and up) */
