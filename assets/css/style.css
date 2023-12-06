@@ -11,8 +11,7 @@
 
 /* General Styles */
 body {
-    width: 100%;
-    min-height: 100vh;
+
     display: flex;
     flex-direction: column;
     /* generic project styles */
