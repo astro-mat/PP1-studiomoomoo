@@ -27,3 +27,7 @@
 
 
 Created image gallery from W3 schools https://www.w3schools.com/Css/css_image_gallery.asp
+
+
+PROBLEMS
+Image gallery takes long time to load
