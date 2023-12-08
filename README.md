@@ -24,3 +24,6 @@
 <h2>Bugs</h2>
 ○ Bugs Fixed
 ○ Known Bugs
+
+
+Created image gallery from W3 schools https://www.w3schools.com/Css/css_image_gallery.asp

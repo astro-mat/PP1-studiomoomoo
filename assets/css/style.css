@@ -109,16 +109,12 @@ nav {
 
 
 /* Main content */
+
 hr {
-    width: 70%;
-    height: 10px;
-    background-color: #000000;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-width: 2px;
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
+
 
 main {
 
@@ -196,6 +192,35 @@ main {
       max-width: 100%;
     }
   }
+
+/* Equipment Section */
+
+
+#equipment {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#equipment h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#monitoring > div,
+#pluginsandsoftware > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#equipment-container p, ul {
+    padding: 0 20px;
+}
+
+#equipment-container hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 
 
 /* footer */
