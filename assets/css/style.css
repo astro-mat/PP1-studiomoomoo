@@ -191,22 +191,7 @@ main {
     vertical-align: middle;
     width: 100%;
   }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
+
 
 /* Equipment Section */
 
@@ -334,31 +319,23 @@ main {
     }
 
     /* Equipment Section */
-    #monitoring,
-    #pluginsandsoftware,
-    #microphones,
-    #instruments,
-    #outboard,
-    #amplifiers {
+    #equipment-container,
+    #equipment-container2 {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #monitoring > div,
-    #pluginsandsoftware > div,
-    #microphones > div,
-    #instruments > div,
-    #outboard > div,
-    #amplifiers > div {
+    #equipment-container > div,
+    #equipment-container2 > div {
         width: 75%;
     } 
 
-
-    #instruments > div {
+    #equipment-container2 > div {
         text-align: end;
         align-self: flex-end;
     }
+
 
 }
 
@@ -368,3 +345,23 @@ main {
         border-bottom: 1px solid #ffffff
     }
 }
+
+
+
+/* Gallery Images  */
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
