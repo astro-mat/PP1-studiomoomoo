@@ -237,6 +237,21 @@ main {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background: url('../images/gallery/fenderamp.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#equipment-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* footer */
 
@@ -316,6 +331,33 @@ main {
     #cover-text {
         width: 300px;
         right: 50px;
+    }
+
+    /* Equipment Section */
+    #monitoring,
+    #pluginsandsoftware,
+    #microphones,
+    #instruments,
+    #outboard,
+    #amplifiers {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #monitoring > div,
+    #pluginsandsoftware > div,
+    #microphones > div,
+    #instruments > div,
+    #outboard > div,
+    #amplifiers > div {
+        width: 75%;
+    } 
+
+
+    #instruments > div {
+        text-align: end;
+        align-self: flex-end;
     }
 
 }
