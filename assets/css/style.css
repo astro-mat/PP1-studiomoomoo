@@ -195,7 +195,34 @@ main {
 
 /* Equipment Section */
 
+#equipment {
+    width: 90%;
+    margin: 20px auto;
+}
 
+#equipment h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#equipment-cats-1 > div,
+#equipment-cats-2 > div {
+    padding: 10px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    color: #fff;  
+}
+
+#equipment p, ul {
+    padding: 0 20px;
+}
+
+#equipment hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 
 #circle-cover-bg {
     background: url('../images/gallery/fenderamp.jpg') no-repeat top center / cover;
@@ -295,20 +322,20 @@ main {
     }
 
     /* Equipment Section */
-    #equipment-container,
-    #equipment-container2 {
+    #equipment-cats-1,
+    #equipment-cats-2 {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #equipment-container > div,
-    #equipment-container2 > div {
+    #equipment-cats-1 > div,
+    #equipment-cats-2 > div {
         width: 75%;
     } 
 
-    #equipment-container2 > div {
-        text-align: end;
+    #equipment-cats-2 > div {
+
         align-self: flex-end;
     }
 
