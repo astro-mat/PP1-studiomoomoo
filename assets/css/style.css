@@ -177,7 +177,7 @@ main {
 
 #gallery-photos {
     /*removes default white gap between images*/
-    line-height: 0;
+    line-height: 2;
 }
 
 
@@ -247,7 +247,7 @@ main {
 @media screen and (min-width: 576px) {
     #gallery-photos {
         column-count: 2;
-        column-gap: 0;
+        column-gap: 2;
     }
 }
 
@@ -316,6 +316,7 @@ main {
 
     #gallery-photos {
         column-count: 3;
+        column-gap: 2;
     }
 
 }
@@ -352,6 +353,7 @@ main {
 /* gallery photos */
 #gallery-photos {
     column-count: 4;
+    column-gap: 2;
 }
 
 }
