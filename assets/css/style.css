@@ -211,6 +211,8 @@ main {
     padding: 10px;
     line-height: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #000000;
     color: #fff;  
 }
@@ -329,6 +331,7 @@ main {
         width: 100%;
     }
 
+
     #equipment-cats-1 > div,
     #equipment-cats-2 > div {
         width: 75%;
@@ -346,6 +349,60 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #ffffff
+    }
+    #equipment {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #equipment > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #equipment-cats-1 {
+        order: 1;
+    }
+
+    #equipment-cats-1 > div {
+        align-self: flex-start;
+    }
+
+    #equipment-cats-2 > div {
+        align-self: flex-end;
+    }
+}
+
+}
+
+@media screen and (min-width: 1200px) {    
+    /* Reasons section */
+    #equipment {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #equipment > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #equipment-cats-1 {
+        order: 1;
+    }
+
+    #equipment-cats-1 > div {
+        align-self: flex-start;
+    }
+
+    #equipment-cats-2 > div {
+        align-self: flex-end;
     }
 }
 
