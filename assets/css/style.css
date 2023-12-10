@@ -196,31 +196,6 @@ main {
 /* Equipment Section */
 
 
-#equipment {
-    width: 90%;
-    margin: 20px auto;
-}
-
-#equipment h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
-}
-
-#monitoring > div,
-#pluginsandsoftware > div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#equipment-container p, ul {
-    padding: 0 20px;
-}
-
-#equipment-container hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
 
 #circle-cover-bg {
     background: url('../images/gallery/fenderamp.jpg') no-repeat top center / cover;
@@ -237,6 +212,7 @@ main {
     align-items: center;
     justify-content: center;
 }
+
 
 /* footer */
 
