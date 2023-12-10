@@ -194,48 +194,29 @@ main {
 
 
 /* Equipment Section */
-
-#equipment {
-    width: 90%;
-    margin: 20px auto;
-}
-
-#equipment h2 {
+#equipment-title h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
 
-#equipment-cats-1 > div,
-#equipment-cats-2 > div {
-    padding: 10px;
-    line-height: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #000000;
-    color: #d9bf8d;  
+#equipment-items {
+    background: url('../images/gallery/stone.JPG') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
-#equipment p, ul {
-    padding: 0 20px;
-}
+#equipment-items div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 25px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*creates a grid around the equipment list*/
+    border: 2px solid white;
 
-#equipment hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
 }
-
-#circle-cover-bg {
-    background: url('../images/gallery/fenderamp.jpg') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
 
 
 /* footer */
