@@ -32,6 +32,10 @@ h3 {
     font-size: 20px;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Logo */
 #logo {
     height: 46px;
@@ -191,6 +195,17 @@ main {
     vertical-align: middle;
     width: 100%;
   }
+
+/* gallery section 2 */
+#gallery-photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#gallery-photos {
+    /*removes default white gap between images*/
+    line-height: 0;
+}
 
 
 /* Equipment Section */
