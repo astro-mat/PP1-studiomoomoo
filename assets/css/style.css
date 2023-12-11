@@ -139,11 +139,14 @@ main {
     background-color: rgba(107, 107, 107, 0.7);
     font-size: 130%;
     text-align: center;
+    margin: auto;
     position: absolute;
-    bottom: 35%;
-    width: 80%;
-    min-height: 200px;
-    right: 50px;
+    left: 0;
+    right: 0;
+    top: 200px;
+    bottom: 150px;
+    Padding: 5;
+
 }
 
 #cover-text > h2, #cover-text > h3 {
@@ -287,7 +290,6 @@ main {
     #image-logo {
         height: 41px
     }
-
 
 }
 
