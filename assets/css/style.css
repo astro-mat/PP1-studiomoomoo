@@ -140,7 +140,7 @@ main {
     font-size: 130%;
     text-align: left;
     position: absolute;
-    bottom: 30px;
+    bottom: 250px;
     width: 80%;
     min-height: 100px;
     padding-left: 10px;
@@ -203,6 +203,51 @@ main {
 }
 
 
+/* Contact Us*/
+
+#contact {
+    display: flex;
+    flex-direction: column; 
+}
+
+#contact {
+
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#contact-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa; 
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;   
+    padding: 0 5px;
+}
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+
 /* footer */
 
 .footer {
@@ -227,6 +272,9 @@ main {
     padding: 5%;
     color: #d9bf8d;
 }
+
+
+
 
 /*-----------------------------MEDIA QUERIES--------------------------------*/
 
@@ -320,6 +368,30 @@ main {
     }
 
 }
+
+/* contact form */
+
+#contact {
+    background-position: center;
+    position: relative;
+}
+
+#contact-form {
+    max-width: 400px;
+
+    left: 10%;
+    top: 150px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.send-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}
+
 
 /* Media Query: Large Screens laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
