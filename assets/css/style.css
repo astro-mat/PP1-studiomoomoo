@@ -52,6 +52,10 @@ h3 {
     display: none;
 }
 
+input:placeholder-shown {
+    font-style: italic;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -190,7 +194,7 @@ main {
 
 
 #equipment-items {
-    background: url('../images/gallery/stone.jpg') no-repeat center/cover;
+    background: url('../images/gallery/stone.JPG') no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
     
@@ -217,8 +221,8 @@ padding: 20px;
 
 #contact-form {
     color: #ffffff;
-    background-color: #000000;
-    color: #d9bf8d;
+
+    color: #000000;
     padding: 30px;
     margin: auto;
 }
@@ -227,6 +231,8 @@ padding: 20px;
     margin-bottom: 20px;
     color: #d9bf8d;
 }
+
+
 
 .text-input {
     background: transparent;
@@ -241,10 +247,9 @@ padding: 20px;
 
 .send-button {
     margin-top: 20px;
-    border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #252525;
+    background-color: #d9bf8d;
     color: #fafafa;
 
 }
