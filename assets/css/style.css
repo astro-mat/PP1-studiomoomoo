@@ -190,7 +190,7 @@ main {
 
 
 #equipment-items {
-    background: url('../images/gallery/stone.JPG') no-repeat center/cover;
+    background: url('../images/gallery/stone.jpg') no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
     
