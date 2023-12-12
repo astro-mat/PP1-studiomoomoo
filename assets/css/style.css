@@ -209,20 +209,21 @@ main {
 /* Contact Us*/
 
 #contact {
-    display: flex;
-    flex-direction: column; 
+padding: 20px;
 }
 
-#contact {
-
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+#contact > h2 {
+    color: #d9bf8d;
 }
 
 #contact-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #000000;
+    color: #d9bf8d;
     padding: 30px;
+    margin: auto;
+
+
 }
 
 #contact-form>h2 {
@@ -246,8 +247,16 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #454b1b;
+    background-color: #252525;
     color: #fafafa;
+
+}
+
+
+/*google map */
+
+#google-map {
+
 }
 
 
