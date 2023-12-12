@@ -25,8 +25,18 @@
 ○ Bugs Fixed
 ○ Known Bugs
 
+# Studio Moo Moo
 
-Created image gallery from W3 schools https://www.w3schools.com/Css/css_image_gallery.asp
+Studio Moo Moo is a website that aims to promote a recording studio and audio production facility in the north-west of Ireland. It will be a basic site that will provide a good visual experience, clear images and information about the equipment and facilities. There will also be basic email contact form.
+
+The live link can be found here - [Studio Moo Moo] (https://astro-mat.github.io/PP1-studiomoomoo/)
+
+IMAGE OF WEBSITE
+
+
+
+
+
 
 
 PROBLEMS
