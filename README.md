@@ -31,7 +31,21 @@ Studio Moo Moo is a website that aims to promote a recording studio and audio pr
 
 The live link can be found here - [Studio Moo Moo] (https://astro-mat.github.io/PP1-studiomoomoo/)
 
-IMAGE OF WEBSITE
+[studio Moo Moo Am I Responsive image](docs/readme_images/am-i-responsive.png)
+
+##Site Owner Goals
+
+- To provide the user with information about Studio Moo Moo both visual and textural. 
+- To provide location details of the studio.
+- To present the user with a website that is easy to navigate, fully responsive and invokes a sense of professionalism through the use of appropriate colours and imagery. 
+- To enable the user to contact the studio for further information.
+
+## User Stories
+- ### First time user
+  - As a first time user I want to 
+
+  - ### Frequent User
+  - As a frequent user I want to be able to 
 
 
 
@@ -41,3 +55,6 @@ IMAGE OF WEBSITE
 
 PROBLEMS
 Image gallery takes long time to load
+
+
+How to fork and clone
