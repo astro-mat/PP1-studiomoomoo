@@ -19,7 +19,8 @@ body {
     font-family: 'roboto', Lucida Sans, monospace;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'roboto', 'Lucida Sans';
     font-size: 30px;
     color: #252525;
@@ -137,23 +138,28 @@ main {
     width: 100%;
     background: url("../images/gallery/stone.jpg")center center/cover;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #cover-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: rgba(107, 107, 107, 0.7);
-    font-size: 130%;
     text-align: center;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 200px;
-    bottom: 150px;
-    Padding: 5;
-
 }
 
-#cover-text > h2, #cover-text > h3 {
+
+
+#hero-logo {
+    width: 100%;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
@@ -169,7 +175,7 @@ main {
 }
 
 .divider-image {
-    clip-path: polygon(0 0,100% 8%,100% 92%,0 100%);
+    clip-path: polygon(0 0, 100% 8%, 100% 92%, 0 100%);
     max-height: 30vh;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -197,7 +203,7 @@ main {
     background: url('../images/gallery/stone.JPG') no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 #equipment-items div {
@@ -215,33 +221,37 @@ main {
 /* Contact Us*/
 
 #contact {
-padding: 20px;
+    padding: 20px;
 }
 
 
 #contact-form {
     color: #ffffff;
-
-    color: #A18A5A;
+    background-color: #9EAFBD;
+    color: #fafafa;
     padding: 30px;
     margin: auto;
 }
 
 #contact-form > h2 {
     margin-bottom: 20px;
-    color: #A18A5A;
+    color: #fafafa; 
+}
+
+#contact-form > p {
+    font-size: 10px;
 }
 
 
 
 .text-input {
     background: transparent;
-    color: #fafafa; 
+    color: #fafafa;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius: 2px;   
+    border-radius: 2px;
     padding: 0 5px;
 }
 
@@ -257,9 +267,7 @@ padding: 20px;
 
 /*google map */
 
-#google-map {
-
-}
+#google-map {}
 
 
 /* footer */
@@ -305,11 +313,11 @@ padding: 20px;
 }
 
 /* media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    
+@media screen and (min-width: 576px) and (max-width: 768px) {
 
-    
-    
+
+
+
     #gallery-photos {
         column-count: 2;
         column-gap: 2;
@@ -321,8 +329,8 @@ padding: 20px;
 }
 
 
-/* Media Query: Tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+/* Media Query: Tablets and larger (768px - 992) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     /* Header */
     nav {
@@ -350,6 +358,10 @@ padding: 20px;
         font-size: 200%;
     }
 
+    #cover-text > h3 {
+        font-size: 25px;
+    }
+
     main {
         /* push main content down to accomadate larger header */
         margin-top: 1px, solid #3a3a3a;
@@ -357,69 +369,84 @@ padding: 20px;
 
     /*hero */
     #cover-text {
-        width: 300px;
+        width: 60%;
+        font-size: 50px;
 
     }
 
     /* Equipment Section */
 
 
-/*gallery photos */
+    /*gallery photos */
     #gallery-photos {
         column-count: 3;
         column-gap: 2;
     }
 }
+
 /* contact form */
 
 #contact {
     background-position: center;
     position: relative;
 }
+
 #contact-form {
     max-width: 600px;
     left: 10%;
     top: 150px;
 }
+
 .text-input:hover {
     border-color: #f16c6b;
 }
+
 .send-button:hover {
     background-color: #fafafa;
     color: #454b1b;
 }
+
 /* Media Query: Large Screens laptops and desktops (992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px)and (max-width: 1200px) {
     #menu a:hover {
         border-bottom: 1px solid #ffffff
     }
+
     #equipment {
         display: flex;
         flex-direction: row;
     }
 
-    #equipment > div {
+    #equipment>div {
         flex: 1;
     }
 
+    #cover-text {
+        width: 60%;
+    }
 
-/* gallery photos */
-#gallery-photos {
-    column-count: 4;
-    column-gap: 2;
+    #cover-text > h3 {
+        font-size: 30px;
+    }
+
+    /* gallery photos */
+    #gallery-photos {
+        column-count: 4;
+        column-gap: 2;
+    }
+
 }
 
-}
 
+@media screen and (min-width: 1200px) {
 
-@media screen and (min-width: 1200px) {    
     /* Reasons section */
     #equipment {
         display: flex;
         flex-direction: row;
     }
 
-    #equipment > div {
+    #equipment>div {
         flex: 1;
     }
 
@@ -428,5 +455,3 @@ padding: 20px;
     }
 
 }
-
-
