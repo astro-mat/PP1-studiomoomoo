@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     background-color: #000000;
     /* generic project styles */
-    color: #fafafa;
+    color: #ffffffa2;
     font-family: 'roboto', Lucida Sans, monospace;
 }
 
@@ -24,7 +24,7 @@ h1,
 h2 {
     font-family: 'roboto', 'Lucida Sans';
     font-size: 30px;
-    color: #fafafa;
+    color: #ffffffa2;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
