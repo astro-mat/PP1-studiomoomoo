@@ -145,9 +145,21 @@ main {
     width: 100%;
     background: url("../images/gallery/stone.jpg")center center/cover;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-position: center;
+    background-size: cover; 
+}
+
+#hero-logo {
+    position: absolute;
+width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+    margin: auto;
+
 }
 
 #cover-text {
@@ -160,12 +172,6 @@ main {
     margin: 0px;
 }
 
-
-
-#hero-logo {
-    width: 100%;
-    overflow: hidden;
-}
 
 #cover-text>h2,
 #cover-text>h3 {
@@ -436,6 +442,10 @@ main {
         border-bottom: 1px solid #ffffff
     }
 
+    #hero-logo {
+        width: 50%;
+    }
+
     #equipment {
         display: flex;
         flex-direction: row;
@@ -463,6 +473,11 @@ main {
 
 
 @media screen and (min-width: 1200px) {
+
+    #hero-logo {
+        width: 50%;
+    }
+
 
     /* Reasons section */
     #equipment {
