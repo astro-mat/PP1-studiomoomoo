@@ -164,6 +164,7 @@ main {
 
 #hero-logo {
     width: 100%;
+    overflow: hidden;
 }
 
 #cover-text>h2,
@@ -188,6 +189,8 @@ main {
     max-height: 30vh;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -350,8 +353,8 @@ main {
 }
 
 
-/* Media Query: Tablets and larger (768px - 992) */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+/* Media Query: Tablets and larger (768px - 2560px) */
+@media screen and (min-width: 768px) and (max-width: 2560px) {
 
     /* Header */
     nav {
