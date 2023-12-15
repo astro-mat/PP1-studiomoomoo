@@ -155,10 +155,9 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background-color: rgba(170, 152, 112, 0.7);
     text-align: center;
-    padding: 20px;
-    margin: 10px;
+    padding: 0cap;
+    margin: 0px;
 }
 
 
@@ -237,7 +236,7 @@ main {
 
 #contact-form {
     color: #ffffff;
-    background-color:#3a3a3a;
+    background-color: #62555e;
     color: #fafafa;
     padding: 30px;
     margin: auto;
@@ -269,7 +268,7 @@ main {
     margin-top: 20px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #000000;
+    background-color: #D9BF8D;
     color: #fafafa;
 
 }
@@ -290,11 +289,6 @@ main {
     padding: 30px;
     margin: auto;
 }
-
-
-/*google map */
-
-#google-map {}
 
 
 /* footer */
@@ -328,7 +322,7 @@ main {
 /*-----------------------------MEDIA QUERIES--------------------------------*/
 
 /* Media Query: Mobile up to 320px */ 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 576px) {
     #text-logo {
         height: 1200px;
     }
@@ -341,16 +335,10 @@ main {
 /* media query: large or landscape phones (576px to 768px) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
-
-
-
     #gallery-photos {
         column-count: 2;
         column-gap: 2;
     }
-
-
-
 
 }
 
