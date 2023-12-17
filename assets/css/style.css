@@ -143,7 +143,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/gallery/stone.jpg")center center/cover;
+    background: url("../images/gallery/stone.webp")center center/cover;
     position: relative;
     background-position: center;
     background-size: cover; 
@@ -219,7 +219,7 @@ main {
 
 
 #equipment-items {
-    background: url('../images/gallery/stone.JPG') no-repeat center/cover;
+    background: url('../images/gallery/stone.webp') no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
 
@@ -279,8 +279,7 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #D9BF8D;
-    color: #000000;
-
+    color: #fafafa;
 }
 
 /* Thankyou for subscribing */
