@@ -180,7 +180,7 @@ main {
 
 .text-container {
     width: 90%;
-    margin: 20px auto;
+    margin: 40px;
 }
 
 .text-container h2 {
@@ -333,7 +333,9 @@ main {
 }
 
 
-
+.divider-image img {
+    width: 100%;
+}
 
 /*-----------------------------MEDIA QUERIES--------------------------------*/
 
@@ -353,15 +355,19 @@ main {
 
     #gallery-photos {
         column-count: 2;
-        column-gap: 2;
+        column-gap: 0px;
     }
 
 }
 
 
 /* Media Query: Tablets and larger (768px - 2560px) */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
 
+
+
+
+    
     /* Header */
     nav {
         display: block;
@@ -394,7 +400,7 @@ main {
 
     main {
         /* push main content down to accomadate larger header */
-        margin-top: 1px, solid #3a3a3a;
+        margin-top: 1px;
     }
 
     /*hero */
@@ -410,7 +416,7 @@ main {
     /*gallery photos */
     #gallery-photos {
         column-count: 3;
-        column-gap: 2;
+        column-gap: 0px;
     }
 
 
@@ -438,9 +444,29 @@ main {
 }
 
 /* Media Query: Large Screens laptops and desktops (992px and up) */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
    
+        /* Header */
+        nav {
+            display: block;
+            position: static;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+        }
     
+        #menu {
+            display: flex;
+    
+        }
+    
+        #menu>li {
+            padding-left: 1rem;
+        }
+    
+        .nav-toggle-label {
+            display: none;
+        }
    
    
     #menu a:hover {
@@ -477,7 +503,31 @@ main {
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: static;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+
 
     #hero-logo {
         width: 50%;
