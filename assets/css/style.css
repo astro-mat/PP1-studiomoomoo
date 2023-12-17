@@ -172,6 +172,10 @@ main {
     margin: 0px;
 }
 
+#hero > h2 {
+    display: none;
+}
+
 
 #cover-text>h2,
 #cover-text>h3 {
