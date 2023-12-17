@@ -339,7 +339,7 @@ main {
 
 /*-----------------------------MEDIA QUERIES--------------------------------*/
 
-/* Media Query: Mobile up to 320px */ 
+/* Media Query: Mobile  */ 
 @media screen and (min-width: 576px) {
     #text-logo {
         height: 1200px;
@@ -350,8 +350,8 @@ main {
 
 }
 
-/* media query: large or landscape phones (576px to 768px) */
-@media screen and (min-width: 576px) and (max-width: 768px) {
+/* media query: large or landscape phones */
+@media screen and (min-width: 576px) and (max-width: 769px) {
 
     #gallery-photos {
         column-count: 2;
@@ -361,8 +361,8 @@ main {
 }
 
 
-/* Media Query: Tablets and larger (768px - 2560px) */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+/* Media Query: Tablets and larger  */
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
 
 
@@ -431,6 +431,8 @@ main {
     max-width: 600px;
     left: 10%;
     top: 150px;
+    width: 600px;
+    
 }
 
 .text-input:hover {
@@ -443,7 +445,7 @@ main {
 }
 }
 
-/* Media Query: Large Screens laptops and desktops (992px and up) */
+/* Media Query: laptops and desktops */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
    
         /* Header */
@@ -499,10 +501,16 @@ main {
         column-count: 4;
 
     }
+    #contact-form {
+
+        width: 700px;
+        
+    }
+    
 
 }
 
-
+/* Media Query: Large Screens  */
 @media screen and (min-width: 1201px) {
 
     /* Header */
@@ -552,6 +560,10 @@ main {
     #gallery-photos {
         column-count: 4;
     
+        }
+
+    #contact-form {
+        width: 800px;
         }
 
 }
