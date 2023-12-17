@@ -17,6 +17,11 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel=preconnect https://kit.fontawesome.com/1e7673fa14.js>
+  <!-- Load the stylesheet that will reference the LCP image. -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+  <link rel="preload" fetchpriority="high" as="image" href="assets/images/gallery/stone.webp " type="image/webp">
 </head>
 
 <body>
