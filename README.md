@@ -29,9 +29,9 @@
 
 Studio Moo Moo is a website that aims to promote a recording studio and audio production facility in the north-west of Ireland. It will be a basic site that will provide a good visual experience, clear images and information about the equipment and facilities. There will also be basic email contact form.
 
-The live link can be found here - [Studio Moo Moo] (https://astro-mat.github.io/PP1-studiomoomoo/)
+The live link can be found here - [Studio Moo Moo](https://astro-mat.github.io/PP1-studiomoomoo/)
 
-[studio Moo Moo Am I Responsive image](docs/readme_images/am-i-responsive.png)
+![studio Moo Moo Am I Responsive image](docs/readme_images/am-i-responsive.png)
 
 ##Site Owner Goals
 
@@ -76,3 +76,10 @@ Image gallery takes long time to load
 
 
 How to fork and clone
+
+
+TESTING
+
+Lighthouse
+
+Performance
