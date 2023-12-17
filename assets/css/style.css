@@ -203,6 +203,7 @@ main {
 
 
 /* gallery section*/
+
 #gallery-photos img {
     width: 100%;
     line-height: 1em;
@@ -279,7 +280,7 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #D9BF8D;
-    color: #fafafa;
+    color: #000000;
 }
 
 /* Thankyou for subscribing */
