@@ -80,36 +80,80 @@ Navbar Small screen dropdown menu
 ![Nav bar image](docs/readme_images/navbardropdown.png)
 
 ### Hero image
+    - The landing page is a simple backdrop of the stone walls of the studio outlining the opening theme of the site. Over the top of this is a bold large transparent version of the studio logo in white.
+    - This section provides the user with a clear visual opening to the site and what to expect
 
 ![Hero image](docs/readme_images/hero-image.png) 
 
 ### About Us
+    - This section is brief introduction to the studio, what it is and what it offers.
+    - The space is broken up with a slightly abstract image of the internal roof of the studio to lead us into the next section.
 
-![Hero image](docs/readme_images/about-us.png) 
+![About us Section Image ](docs/readme_images/about-us.png) 
 
 ### Gallery
 
-![Hero image](docs/readme_images/gallery-section.png) 
+    - This section is an opportunity to really showcase the studio and what it has to offer
+    - The images are arranged in a fully responsive grid pattern.
+    - The alternating aspect ratios add an element of interest to the grid
+
+![Gallery Section Image](docs/readme_images/gallery-section.png) 
+
+## Equipment
+
+    - A common feature of other studio website that was identified during the research phase of this project was the list of equipment the the studio offers.
+    - The Equipment list is large and as such, is split into categories and arranged into a responsive column list.
+    - The same stone image from the hero section is used as a background with reduced opacity which adds a cohesiveness to the site
+
+![Equipment Section Image](docs/readme_images/equipment-list.png) 
 
 ### Contact Us
 
-![Hero image](docs/readme_images/contact-section.png) 
+    - This section includes a simple form to get in touch with the studio.
+    - It also includes the address and phone number.
 
-![Hero image](docs/readme_images/map.png) 
+![Contact section image](docs/readme_images/contact-section.png) 
+
+    - Since the address is listed in the contact form, a map and location is included. Users using a mobile device can use this to navigate easily to the studios rural location.
+    - The address is a link to a google map which aids with mobile navigation.
+
+![Map image](docs/readme_images/map.png) 
 
 ### Footer
 
-![Hero image](docs/readme_images/footer-section.png) 
+    - The footer section includes links to Studio Moo Moo's Facebook, Instagram and Youtube pages.
+    - The links will open to a new tab to allow easy navigation for the user. 
+    - The footer is valuable to the user as it allows them to find and follow Mind Yoga on social media.
+    - There is also a small piece of text saying that all rights are reserved.
+
+![Footer section image](docs/readme_images/footer-section.png) 
 
 
-### Future Features
+### Future Features to impliment
 - Dropdown menu should be more dynamic. Should hide when you have scrolled to the next part of the page.
 - A more comprehensive gallery section with option to increase size of image for a more detailed view.
-- The contact page does not yet send information. It only goes to alanding page that takes the user back to the main page 
+- The contact page does not yet send information. It only goes to a landing page that takes the user back to the main page 
+- More images that better represent the space. Perhaps with a more wide angle lense. The Studio is still under construction so images have been difficult.
 
 
 ## Testing
 ### Code Validation
+#### HTML
+    - No errors were returned when passing through the official W3C Markup Validator
+        - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fastro-mat.github.io%2FPP1-studiomoomoo%2F.html)
+
+#### CSS
+    - No errors were found when passing through the official W3C CSS Validator 
+        - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fastro-mat.github.io%2FPP1-studiomoomoo%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+
+
+#### Accessibility
+
+
+![Lighthouse score](docs/readme_images/lighthouse.png)
+
+
 ### Responsiveness
 ### Lighthouse testing
 ### Accessibility testing
