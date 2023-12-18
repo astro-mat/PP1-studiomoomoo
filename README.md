@@ -1,30 +1,3 @@
-<h2>Project Introduction<h2>
-○ Title
-○ Description
-○ Link to live site
-<h2>User Experience<h2>
-○ First time user experience
-○ Returning user
-○ PP4 & PP5 add detailed user stories.
-<h2>Design</h2>
-○ Wireframes
-○ Site Structure
-○ Imagery used
-○ Colour Scheme
-○ Typography
-<h2>Features</h2>
-○ Navigation
-○ Future Features
-<h2>Testing</h2>
-○ Code Validation
-○ Responsiveness
-○ Lighthouse testing
-○ Accessibility testing
-○ Manual testing
-<h2>Bugs</h2>
-○ Bugs Fixed
-○ Known Bugs
-
 # Studio Moo Moo
 
 Studio Moo Moo is a website that aims to promote a recording studio and audio production facility in the north-west of Ireland. It will be a basic site that will provide a good visual experience, clear images and information about the equipment and facilities. There will also be basic email contact form.
@@ -55,18 +28,65 @@ The live link can be found here - [Studio Moo Moo](https://astro-mat.github.io/P
 ### Imagery
 The imagery used on the Studio Moo Moo site is very important to convey to the user that this is a place that they would feel hapy to spend time creating music in. It must feature images demonstrating all aspects of the studio.
 
+I chose a theme that is quite in line with the stone and wood that the studio is constructed from. I was also inspired by the imagery of modular synth manufacturers of which I have many.
+
+### Colour scheme
+The colour scheme of the website is predominantly black with high contrast white making it easy to read. There are elements of grey, brown and yellow to keep in line with the wood and stone imagery of the studios construction.
+
+### Typography
+The Robotto font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly. I am also using [Font Awesome](https://fontawesome.com/) for icons throughout the site
+
+### Wireframes
+Wireframes were produced using Balsamiq. 
+
+<details>
+
+ <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](docs/readme_images/desktopwireframe.png)
+ </details>
+
+ <details>
+    <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](docs/readme_images/mobilewireframe.png)
+ </details>
 
 
-A nature theme is consistently used across all imagery with lots of green foliage and forest scenes. This gives the sense of grounding in nature which has great benefits for mental health and is intended to invoke a sense of calm in the user. The colour green is also important as this ties into the main colour scheme of the site. 
-
-### Colours
-The colour scheme of the website is white and green with varying shades of green used to tie in with the nature imagery. A dark grey font is used which has a good contrast with the light green and white backgrounds making it easy to read. 
-
-### Fonts
-The Montserrat font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
 
 
+### Site Structure
+The site will predominantly be a one-page site with a navigation menu in the header which moves with scrolling 
+
+
+
+
+
+
+## Features
+### Navigation
+
+    - The fully responsive navigation bar includes links to Home, About us, Gallery and Contact all on the same page.
+    - The navigation bar has a fixed position so that it remains visible at the top of the page as the user navigates through the individual sections. 
+    - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
+    - This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
+    - For smaller screens, the nav bar reduces to a hamburger icon that when pressed, drops down to reveal the menu items.
+
+![Nav bar image](docs/readme_images/navbar.png)
+### Future Features
+
+## Testing
+### Code Validation
+### Responsiveness
+### Lighthouse testing
+### Accessibility testing
+### Manual testing
+
+## Bugs
+### Bugs Fixed
+### Known Bugs
+nav bar should hide after scrolling. Likely to be a javascript solution.
 
 
 
