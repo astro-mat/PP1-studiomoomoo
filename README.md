@@ -72,9 +72,41 @@ The site will predominantly be a one-page site with a navigation menu in the hea
     - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
     - This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
     - For smaller screens, the nav bar reduces to a hamburger icon that when pressed, drops down to reveal the menu items.
-
+Navbar Desktop
 ![Nav bar image](docs/readme_images/navbar.png)
+Navbar Small screen view
+![Nav bar responsive image](docs/readme_images/navbarresponsive.png)
+Navbar Small screen dropdown menu
+![Nav bar image](docs/readme_images/navbardropdown.png)
+
+### Hero image
+
+![Hero image](docs/readme_images/hero-image.png) 
+
+### About Us
+
+![Hero image](docs/readme_images/about-us.png) 
+
+### Gallery
+
+![Hero image](docs/readme_images/gallery-section.png) 
+
+### Contact Us
+
+![Hero image](docs/readme_images/contact-section.png) 
+
+![Hero image](docs/readme_images/map.png) 
+
+### Footer
+
+![Hero image](docs/readme_images/footer-section.png) 
+
+
 ### Future Features
+- Dropdown menu should be more dynamic. Should hide when you have scrolled to the next part of the page.
+- A more comprehensive gallery section with option to increase size of image for a more detailed view.
+- The contact page does not yet send information. It only goes to alanding page that takes the user back to the main page 
+
 
 ## Testing
 ### Code Validation
