@@ -33,7 +33,7 @@ The live link can be found here - [Studio Moo Moo](https://astro-mat.github.io/P
 
 ![studio Moo Moo Am I Responsive image](docs/readme_images/am-i-responsive.png)
 
-##Site Owner Goals
+## Site Owner Goals
 
 - To provide the user with information about Studio Moo Moo both visual and textural. 
 - To provide location details of the studio.
