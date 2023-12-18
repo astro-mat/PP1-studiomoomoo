@@ -341,6 +341,11 @@ main {
     width: 100%;
 }
 
+#footer-text {
+    text-align: center;
+    color: #d9bf8d;
+} 
+
 /*-----------------------------MEDIA QUERIES--------------------------------*/
 
 /* Media Query: Mobile  */ 
